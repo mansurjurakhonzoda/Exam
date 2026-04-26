@@ -41,3 +41,62 @@
   color: #446df6;
   background-color: #fff;
 }
+.poisk {
+  width: 90%;
+  height: 744px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.text {
+  width: 551px;
+  height: 400px;
+}
+.text span {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 125%;
+  color: #141b41;
+}
+.text img {
+  margin-left: 30px;
+}
+.text p {
+  font-weight: 350;
+  font-size: 24px;
+  line-height: 140%;
+  color: #72727e;
+  margin: 20px 0px;
+}
+.text button {
+  width: 213px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #446df6;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #eeeeee;
+  border: none;
+}
+.image {
+  width: 729px;
+  height: 744px;
+  position: relative;
+}
+.image img:nth-child(1) {
+  width: 700px;
+  height: 574px;
+  top: 100px;
+  position: absolute;
+  z-index: 1;
+}
+.image img:nth-child(2) {
+  width: 700px;
+  position: absolute;
+  z-index: 0;
+  top: 150px;
+  right: 50px;
+}
