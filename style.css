@@ -373,5 +373,37 @@
   background-color: #141b41;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+}
+.endik {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.sslka {
+  width: 480px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sslka a {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 140%;
+  color: #e9ecf5;
+  text-decoration: none;
+}
+.konec {
+  width: 151px;
+  height: 50px;
+  border: 1px solid #72727e;
+  border-radius: 6px;
+  background-color: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #f7f8fd;
 }
