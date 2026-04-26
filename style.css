@@ -170,3 +170,72 @@
   color: #72727e;
   margin: 0;
 }
+.partnor {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.partnor p:nth-child(1) {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 125%;
+  color: #141b41;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.partnor p:nth-child(2) {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 140%;
+  color: #72727e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.kartochki {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kartachka {
+  width: 186px;
+  height: 120px;
+  padding: 40px 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px #bebfc8;
+}
+.kartachka svg {
+  width: 24px;
+  height: 24px;
+  color: #446df6;
+  padding: 16px;
+  border-radius: 6px;
+  margin-left: 65px;
+  background-color: #f7f8fd;
+}
+.kartachka p {
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 140%;
+  color: #141b41;
+  text-align: center;
+  margin: 0;
+}
+.partnor button {
+  width: 213px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #446df6;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #eeeeee;
+  margin-top: 75px;
+  margin-left: 462px;
+}
