@@ -239,3 +239,53 @@
   margin-top: 75px;
   margin-left: 462px;
 }
+.time {
+  width: 90%;
+  height: 370px;
+  border-radius: 20px;
+  background-color: #446df6;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.want {
+  width: 350px;
+  height: 250px;
+}
+.want p:nth-child(1) {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 114%;
+  color: #f7f8fd;
+  margin-bottom: 30px;
+}
+.want p:nth-child(2) {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 140%;
+  color: #e9ecf5;
+  margin-bottom: 30px;
+}
+.app {
+  margin-right: 10px;
+}
+.play {
+  margin-left: 10px;
+}
+.telephon {
+  width: 464px;
+  height: 438px;
+  margin-top: -70px;
+  position: relative;
+}
+.telephon img:nth-child(1) {
+  position: absolute;
+  right: -20px;
+}
+.telephon img:nth-child(2) {
+  position: absolute;
+  right: 50px;
+}
