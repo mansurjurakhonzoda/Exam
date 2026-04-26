@@ -100,3 +100,73 @@
   top: 150px;
   right: 50px;
 }
+.start {
+  width: 98%;
+  height: 724px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.karta {
+  width: 674px;
+  height: 715px;
+  position: relative;
+}
+.karta img:nth-child(1) {
+  position: absolute;
+}
+.karta img:nth-child(2) {
+  width: 450px;
+  height: 675px;
+  top: 50px;
+  left: 150px;
+  position: absolute;
+}
+.fast {
+  width: 528px;
+  height: 724px;
+}
+.fast p {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 125%;
+  color: #141b41;
+  margin-bottom: 50px;
+}
+.katalog {
+  width: 520px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+.katalog svg {
+  width: 32px;
+  height: 32px;
+  padding: 14px;
+  color: #446df6;
+  background-color: #f7f8fd;
+  border-radius: 6px;
+}
+.about {
+  width: 450px;
+  height: 64px;
+}
+.about p:nth-child(1) {
+  width: 450px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  color: #141b41;
+  margin-bottom: 5px;
+}
+.about p:nth-child(2) {
+  width: 450px;
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 135%;
+  color: #72727e;
+  margin: 0;
+}
