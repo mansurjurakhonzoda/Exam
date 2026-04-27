@@ -54,16 +54,17 @@
   width: 551px;
   height: 400px;
 }
-.text span {
+.text p {
   font-weight: 400;
   font-size: 40px;
   line-height: 125%;
   color: #141b41;
+  display: inline;
 }
-.text img {
+.right {
   margin-left: 30px;
 }
-.text p {
+.text span {
   font-weight: 350;
   font-size: 24px;
   line-height: 140%;
@@ -155,7 +156,7 @@
   height: 64px;
 }
 .about p:nth-child(1) {
-  width: 450px;
+  width: 100%;
   font-weight: 400;
   font-size: 24px;
   line-height: 135%;
@@ -163,7 +164,7 @@
   margin-bottom: 5px;
 }
 .about p:nth-child(2) {
-  width: 450px;
+  width: 100%;
   font-weight: 350;
   font-size: 18px;
   line-height: 135%;
@@ -406,4 +407,92 @@
   font-size: 16px;
   line-height: 140%;
   color: #f7f8fd;
+}
+.down {
+  margin-left: 180px;
+  display: none;
+}
+.head svg {
+  width: 61px;
+  height: 61px;
+  border-left: 1px solid #e9ecf5;
+  display: none;
+}
+.iphon {
+  display: none;
+}
+@media (max-width: 640px) {
+  .head {
+    width: 100%;
+    height: 61px;
+    margin-top: 0;
+    justify-content: space-around;
+    border-bottom: 1px solid #e9ecf5;
+  }
+  .sslki {
+    display: none;
+  }
+  .get {
+    display: none;
+  }
+  .head svg {
+    display: block;
+  }
+  .poisk {
+    width: 90%;
+    height: 110vh;
+    margin-bottom: 50px;
+    display: block;
+    margin: auto;
+  }
+  .text {
+    width: 100%;
+    height: 445px;
+    display: block;
+  }
+  .text p {
+    width: 100%;
+    text-align: center;
+  }
+  .right {
+    display: none;
+  }
+  .down {
+    display: block;
+  }
+  .text button {
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  .image {
+    display: none;
+  }
+  .iphon {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .karta {
+    display: none;
+  }
+  .fast {
+    width: 100%;
+    height: 120vh;
+    margin-top: 200px;
+    flex-direction: column;
+  }
+  .katalog {
+    width: 382px;
+    flex-direction: column;
+    height: 170px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .about {
+    width: 382px;
+  }
+  .about p {
+    width: 382px;
+    text-align: center;
+  }
 }
